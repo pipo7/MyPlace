@@ -7,10 +7,10 @@
 	<version>0.1-SNAPSHOT</version>
 	<name>GitHub Maven Plugin Example</name>
 	<description>Project to demonstrate GitHub Maven plugins</description>
-	<url>https://github.com/kevinsawicki/github-maven-example</url>
+	<url>https://github.com/pipo7/MyPlace.git</url>
 
 	<issueManagement>
-		<url>https://github.com/kevinsawicki/github-maven-example/issues</url>
+		<url>https://github.com/pipo7/MyPlace.git/issues</url>
 		<system>GitHub Issues</system>
 	</issueManagement>
 
@@ -23,9 +23,9 @@
 	</licenses>
 
 	<scm>
-		<url>https://github.com/kevinsawicki/github-maven-example</url>
-		<connection>scm:git:git://github.com/kevinsawicki/github-maven-example.git</connection>
-		<developerConnection>scm:git:git@github.com:kevinsawicki/github-maven-example.git</developerConnection>
+		<url>https://github.com/pipo7/MyPlace.git</url>
+		<connection>scm:git:git@github.com:pipo7/MyPlace.git</connection>
+		<developerConnection>git@github.com:pipo7/MyPlace.git</developerConnection>
 	</scm>
 
 	<developers>
