@@ -28,14 +28,7 @@
 		<developerConnection>git@github.com:pipo7/MyPlace.git</developerConnection>
 	</scm>
 
-	<developers>
-		<developer>
-			<email>kevinsawicki@gmail.com</email>
-			<name>Kevin Sawicki</name>
-			<url>https://github.com/kevinsawicki</url>
-			<id>kevinsawicki</id>
-		</developer>
-	</developers>
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
