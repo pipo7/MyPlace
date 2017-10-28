@@ -137,7 +137,7 @@
 			</plugin>
 		</plugins>
 	</build>
-	<repositories>
+	<distributionManagement>
     <repository>
       <releases>
         <enabled>false</enabled>
@@ -154,7 +154,7 @@
       <url>http://snapshots.maven.codehaus.org/maven2</url>
       <layout>default</layout>
     </repository>
-  </repositories>
+</distributionManagement>
 
 	<dependencies>
 		<dependency>
