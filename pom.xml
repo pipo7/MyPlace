@@ -131,9 +131,9 @@
 				</executions>
 			</plugin>
 			<plugin>
-         <groupId>maven</groupId>
-         <artifactId>maven-site-plugin</artifactId>
-         <version>1.6.1</version>
+           <groupId>com.github.github</groupId>
+	  <artifactId>site-maven-plugin</artifactId>
+         <version>0.9</version>
          <configuration>
               <!-- git commit message -->
               <message>Maven artifacts for ${project.version}</message>
