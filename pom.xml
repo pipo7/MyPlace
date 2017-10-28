@@ -132,7 +132,7 @@
 			</plugin>
 			<plugin>
          <groupId>com.github.github</groupId>
-         <artifactId>site-maven-plugin</artifactId>
+         <artifactId>maven-site-plugin</artifactId>
          <version>1.7.2</version>
          <configuration>
               <!-- git commit message -->
