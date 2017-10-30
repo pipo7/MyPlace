@@ -3,7 +3,7 @@ pipeline {
      agent any
     
     stages {
-        stage ('Compilation first Stage') {
+        stage ('Compilation first build Stage') {
 
             steps {
                 
@@ -12,7 +12,7 @@ pipeline {
             }
         }
 
-        stage ('Testing Stage') {
+        stage ('Testing Junit cases Stage') {
 
             steps {
                 
@@ -22,7 +22,7 @@ pipeline {
         }
 
 
-        stage ('Deployment Stage') {
+        stage ('Deployment Final Stage') {
             steps {
                  
                     sh 'mvn deploy'
