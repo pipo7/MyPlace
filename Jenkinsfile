@@ -3,7 +3,7 @@ pipeline {
      agent any
     
     stages {
-        stage ('Compile code Stage') {
+        stage ('Compilation first Stage') {
 
             steps {
                 
