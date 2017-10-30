@@ -3,10 +3,9 @@
   <groupId>com.github.kevinsawicki</groupId>
   <artifactId>github-maven-example</artifactId>
   <versioning>
-    <release>0.1-SNAPSHOT + date</release>
     <versions>
-      <version>0.1-SNAPSHOT + date</version>
+      <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20171030072618</lastUpdated>
+    <lastUpdated>20171030074150</lastUpdated>
   </versioning>
 </metadata>
