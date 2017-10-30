@@ -11,7 +11,14 @@ pipeline {
                 
             }
         }
+        stage ('Valdiate Stage') {
 
+            steps {
+                
+                    sh 'mvn validate'
+                
+            }
+    }
         stage ('Testing Junit cases Stage') {
 
             steps {
