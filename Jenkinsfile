@@ -24,7 +24,7 @@ pipeline {
             steps {
                 
                     sh 'mvn test'
-                
+                    
             }
         }
 
@@ -33,10 +33,10 @@ pipeline {
             steps {
                  
                     sh 'mvn deploy'
-                
+                    sh 'mvn checkstyle:checkstyle
             }
         }
-        stage('checkStyle'){
+        stage('checkStyle Stage'){
             steps {
                 step([$class: 'hudson.plugins.checkstyle.CheckStylePublisher', pattern: '**/target/checkstyle-result.xml', healthy:'20', unHealthy:'100'])
             }   
