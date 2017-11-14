@@ -36,5 +36,10 @@ pipeline {
                 
             }
         }
+        stage('checkStyle'){
+            steps {
+                ([$class: 'hudson.plugins.checkstyle.CheckStylePublisher', pattern: '**/target/checkstyle-result.xml', healthy:'20', unHealthy:'100'])
+            }   
+        }
     }
 }
