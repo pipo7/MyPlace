@@ -33,7 +33,7 @@ pipeline {
             steps {
                  
                     sh 'mvn deploy'
-                    sh 'mvn checkstyle:checkstyle
+                    sh 'mvn checkstyle:checkstyle'
             }
         }
         stage('checkStyle Stage'){
